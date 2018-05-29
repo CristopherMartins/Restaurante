@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Restaurante</string>
+    <string name="tb_title">Restaurante</string>
+    <string name="tb_cadastro">Cadastro/Edição de Restaurante</string>
+    <string name="cadastro_restaurante">Cadastro de Restaurante</string>
+    <string name="menu_principal">Menu Pricipal</string>
+    <string name="tela_lista_restaurantes">Lista de Restaurantes</string>
+    <string name="editar_restaurante">Editar</string>
+    <string name="excluir_restaurante">Excluir</string>
+    <string name="save">Salvar</string>
+    <string name="listar">Listar</string>
+</resources>

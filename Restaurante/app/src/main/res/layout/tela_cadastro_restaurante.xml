@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_toolbar"/>
+
+    <TextView
+        android:id="@+id/txtFirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastro do Restaurante:"
+        android:layout_below="@+id/toolbar"/>
+
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome:"
+        android:layout_below="@+id/txtFirst"/>
+
+    <EditText
+        android:id="@+id/etNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_below="@+id/txtNome"/>
+
+    <TextView
+        android:id="@+id/txtEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Endereço:"
+        android:layout_below="@+id/etNome"/>
+
+    <EditText
+        android:id="@+id/etEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_below="@+id/txtEndereco" />
+
+    <Spinner
+        android:id="@+id/tipo"
+        android:layout_marginLeft="50dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:layout_below="@+id/etEndereco"
+        android:layout_alignParentLeft="true"/>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etEndereco"
+        android:layout_toRightOf="@+id/tipo"
+        android:layout_marginStart="50dp"
+        android:background="@null"/>
+
+    <Button
+        android:id="@+id/bt_salvar"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/btn_save"
+        android:text="+"
+        android:textColor="#ffffff"
+        android:textSize="40sp"/>
+
+</RelativeLayout>
